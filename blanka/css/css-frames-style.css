@@ -1,0 +1,319 @@
+﻿body	{margin: 0px;
+		background: #2ed9d3;
+		height: 100%;		
+}
+header {
+    background-color: #425C5A;
+    padding: 32px;
+    text-align: center;
+	color: white;
+	text-shadow: 5px 5px 15px #A2BFBD;
+}
+header h1 {
+	color: white;
+}
+/*az oldal alapja*/
+div.left {
+	float: left;
+	display: block;
+	width: 16%;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #425C5A;
+	}
+div.leftbox {
+	text-align: center;
+	}	
+div.right {
+	float: right;
+	clear: right;
+	display: block;
+	width: 83%;
+	}	
+/*baloldal navigációs menü*/	
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: inline;
+		width: 17%;
+		text-align: center;
+		}
+	nav a {
+		padding: 18px 32px 18px 32px;
+		color: #425C5A;
+		text-transform: uppercase;
+		text-decoration: none;
+		display: block;
+		font-size: 16pt;
+		}
+	nav a.aktiv {
+		background-color: #425C5A;
+		color: white;
+	}
+	nav a:hover {
+		color: white;
+		background-color: #425C5A;
+		}
+/*jobb oldal*/		
+.rightcontent {
+    padding: 24px;
+	padding-bottom: 50px;
+	text-align: left;
+}
+h1, h2, h3 {
+	color: #425C5A;
+}
+p {
+	color: #425C5A;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	font-size: 16pt;
+}
+a {
+	text-decoration: none;
+}
+.fooldal_focimcontainer {
+	text-align: center;
+	border-bottom: 2px solid #425C5A;
+
+}
+/*Főoldalon lévő képem*/
+.image {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 80%;
+}
+.imageth {
+	width: 20%;
+}
+/*Videós rész*/
+.rightcontentvideos {
+    padding: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+/*Google térkép*/
+.mapouter {
+	margin-left:auto; 
+    margin-right:auto;
+}
+.mapfocim {
+	text-align: center;
+}
+
+.textcentered {
+	text-align: center;
+}
+.socialmedia_container {
+	display: flex;
+	justify-content: center;
+}
+.socialmedia_png {
+	width: 40px;
+	padding: 10px;
+}
+.socialtable {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.regcontent {
+    padding: 24px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+/*Album feltöltős oldal*/
+.albumcontent {
+    padding: 24px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+/*Belépés formázás*/
+.regcontent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    align-items: center;
+	align-content: center;
+	margin-top: 0px;
+}
+.login-container {
+    background-color: #425C5A;
+    padding: 40px 20px;
+    min-width: 200px;
+    width: 50%;
+    max-width: 400px;
+}
+.login-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: normal;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-group label {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3em;
+    margin-bottom: 7px;
+}
+.input-group input {
+    font-size: 1.1em;
+    padding: .1em .25em;
+    background-color: #f0f5f4;
+    border: 1px solid #FFCEA2;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: lighter;
+}
+.input-group input:focus {
+    border: 1px solid #374b58;
+}
+.login-button {
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px; 
+    background-color: #374b58;
+    border: 1px solid #FFCEA2;
+    outline: none;
+    font-size: 1.3em;
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.login-button:hover {
+	color: #425C5A;
+    background-color: #FFCEA2
+}
+.login-button:focus {
+    background-color: #374b58;
+}
+footer {
+	display: block;
+	width: 100%;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.search-box {
+	position: absolute;
+	bottom: 0px;
+	background: #425C5A;
+	height: 40px;
+	border-radius: 40px;
+	padding: 15px;
+}
+.search-box:hover > .search-txt {
+	width: 240px;
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+	background: white;
+	color: #425C5A;
+}
+.search-btn {
+	color: #425C5A;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #425C5A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	color: white;
+	cursor: pointer;
+}
+.search-btn > i {
+	font-size: 30px;
+}
+.search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	font-weight: bold;
+}
+.loggedin {
+	background: url(data/background.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.loggedin h1 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+.logout p {
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.icontainer {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

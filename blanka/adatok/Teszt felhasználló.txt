@@ -1,0 +1,2 @@
+user: CoreX2
+pass: asd123

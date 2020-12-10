@@ -1,0 +1,38 @@
+﻿	<div class="regcontent">
+		<div class="login-container">
+			<h3 class="login-title">Bejelentkezés szükséges</h3>
+		<form action="inc/login.php" method=POST>							<!-- A bejelentkezési adatokat ugyanez az oldal dolgozza fel -->
+			<div class="input-group">
+				<label>Felhasználó</label>
+				<input type="text" name="username" placeholder="felhasználó" required >
+			</div>
+			<div class="input-group">
+				<label>Jelszó</label>
+				<input type="password" name="password" placeholder="jelszó" required>
+			</div>
+			<button type="submit" class="login-button" name="submit">Belépés</button>
+			&nbsp;&nbsp;		
+		</form>	
+		<h3 class="login-title">Regisztráld magad, ha még nem vagy felhasználó!</h3>
+		<form action = "inc/reg.php" method = "post">
+			<div class="input-group">
+				<label>Felhasználói név</label>
+				<input type="text" name="username" placeholder="felhasználói név"  >
+			</div>
+			<div class="input-group">
+				<label>Jelszó</label>
+				<input type="password" name="password" placeholder="jelszó"  >
+			</div>
+			<div class="input-group">
+				<label>Vezetéknév</label>
+				<input type="text" name="fname" placeholder="vezetéknév">
+			</div>
+			<div class="input-group">
+				<label>Keresztnév</label>
+				<input type="text" name="lname" placeholder="keresztnév"  >
+			</div>
+			
+			<button type="submit" name='reg' class="login-button">Regisztráció</button>
+			</form>
+		</div>
+	</div>

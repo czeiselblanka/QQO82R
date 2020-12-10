@@ -1,0 +1,16 @@
+CREATE DATABASE `userek` DEFAULT 
+CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE `userek`;
+
+CREATE TABLE IF NOT EXISTS `felhasznalok` (
+  `usernev` varchar(20) COLLATE utf8_hungarian_ci NOT NULL,
+  `passwd` varchar(20) COLLATE utf8_hungarian_ci NOT NULL,
+  `lastname` varchar(20) COLLATE utf8_hungarian_ci NOT NULL,
+  `firstname` varchar(20) COLLATE utf8_hungarian_ci NOT NULL,
+  PRIMARY KEY (`usernev`)
+) 
+ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+INSERT INTO `felhasznalok` (`usernev`, `passwd`, `lastname`, `firstname`) VALUES
+('ggabor', 'cr2142', 'garamhegyi', 'gabor'),
+('telek', '123456', 'teszet', 'elek');
